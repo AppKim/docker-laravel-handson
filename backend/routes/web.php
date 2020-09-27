@@ -15,6 +15,5 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     logger('welcome route.');
-    logger('local');
     return view('welcome');
 });
