@@ -15,5 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     logger('welcome route.');
+    logger('welcome route1.');
+    logger('welcome route2.');
     return view('welcome');
 });
